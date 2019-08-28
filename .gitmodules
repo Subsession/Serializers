@@ -1,0 +1,9 @@
+[submodule "src/abstraction"]
+	path = src/abstraction
+	url = git@github.com:Comertis/Serializers-Abstraction.git
+[submodule "src/json"]
+	path = src/json
+	url = git@github.com:Comertis/Serializers-JSON.git
+[submodule "src/xml"]
+	path = src/xml
+	url = git@github.com:Comertis/Serializers-XML.git
