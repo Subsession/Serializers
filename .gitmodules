@@ -1,9 +1,12 @@
 [submodule "src/abstraction"]
 	path = src/abstraction
-	url = git@github.com:Comertis/Serializers-Abstraction.git
+	url = git@github.com:Comertis/Serializers-Abstraction
 [submodule "src/json"]
 	path = src/json
-	url = git@github.com:Comertis/Serializers-JSON.git
+	url = git@github.com:Comertis/Serializers-JSON
 [submodule "src/xml"]
 	path = src/xml
-	url = git@github.com:Comertis/Serializers-XML.git
+	url = git@github.com:Comertis/Serializers-XML
+[submodule "src/csv"]
+	path = src/csv
+	url = https://github.com/Comertis/Serializers-CSV
