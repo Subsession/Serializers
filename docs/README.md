@@ -1,1 +1,1 @@
-# Comertis/Serializers docs
+# Serializers documentation

@@ -1,24 +1,24 @@
 {
-  "name": "comertis/serializers",
-  "description": "Collection of serializers",
+  "name": "subsession/serializers",
+  "description": "A meta-package of serializer libraries",
   "type": "library",
   "readme": "README.md",
-  "license": "Proprietary",
+  "license": "MIT",
   "minimum-stability": "stable",
   "authors": [
     {
       "name": "Cristian Moraru",
-      "email": "cristian@comertis.com",
+      "email": "cristian.moraru@live.com",
       "role": "Developer"
     }
   ],
   "require": {
     "php": ">=7.0.0",
-    "comertis/exceptions": "^1.0"
+    "subsession/exceptions": "^1.0"
   },
   "autoload": {
     "psr-4": {
-      "Comertis\\Serializers\\": "src/"
+      "Subsession\\Serializers\\": "src/"
     }
   }
 }
