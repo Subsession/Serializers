@@ -8,17 +8,21 @@
   "authors": [
     {
       "name": "Cristian Moraru",
-      "email": "cristian.moraru@live.com",
+      "email": "cristian@subsession.org",
       "role": "Developer"
     }
   ],
-  "require": {
-    "php": ">=7.0.0",
-    "subsession/exceptions": "^1.0"
-  },
   "autoload": {
     "psr-4": {
       "Subsession\\Serializers\\": "src/"
     }
+  },
+  "require": {
+    "php": ">=7.0.0",
+    "subsession/exceptions": "*",
+    "subsession/serializers-abstraction": "*",
+    "subsession/serializers-xml": "*",
+    "subsession/serializers-csv": "*",
+    "subsession/serializers-json": "*"
   }
 }
